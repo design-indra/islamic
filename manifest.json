@@ -1,0 +1,9 @@
+{
+"name":"Islamic Lite",
+"short_name":"IslamicLite",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#0b1511",
+"theme_color":"#0b1511",
+"icons":[]
+}
