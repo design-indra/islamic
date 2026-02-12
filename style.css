@@ -1,0 +1,68 @@
+:root {
+--bg:#0b1511;
+--card:#10241b;
+--border:#2f6b4f;
+--text:#e6f6ee;
+--accent:#80d6a7;
+}
+
+body.light {
+--bg:#ffffff;
+--card:#f2f5f4;
+--border:#d0e2da;
+--text:#1c2b24;
+--accent:#2f8f6b;
+}
+
+body{
+margin:0;
+background:var(--bg);
+color:var(--text);
+font-family:system-ui,sans-serif;
+transition:0.3s;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+border-bottom:1px solid var(--border);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.card{
+background:var(--card);
+border:1px solid var(--border);
+padding:20px;
+border-radius:15px;
+text-align:center;
+cursor:pointer;
+transition:0.3s;
+}
+
+.card:hover{
+box-shadow:0 0 15px var(--accent);
+}
+
+.arabic{
+font-family:'Noto Naskh Arabic',serif;
+direction:rtl;
+text-align:right;
+font-size:22px;
+line-height:2;
+}
+
+.hidden{display:none;}
+
+.footer{
+text-align:center;
+padding:20px;
+border-top:1px solid var(--border);
+}
