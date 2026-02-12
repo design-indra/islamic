@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Al-Qur'an Online - Islamic Lite</title>
+<meta name="description" content="Baca Al-Qur'an lengkap dengan terjemahan Indonesia dan audio.">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+<a href="index.html">← Beranda</a>
+<h1>📖 Al-Qur'an</h1>
+<button id="themeToggle">🌙</button>
+</header>
+
+<input type="text" id="search" placeholder="Cari surah...">
+
+<section id="surah-list" class="grid"></section>
+<section id="ayah-view" class="hidden">
+<button id="back">← Kembali</button>
+<h2 id="surah-title"></h2>
+<div id="ayah-list"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
