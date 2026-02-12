@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hadits Online - Islamic Lite</title>
+<meta name="description" content="Baca hadits Shahih Bukhari dan Muslim lengkap dengan terjemahan.">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+<a href="index.html">← Beranda</a>
+<h1>📚 Hadits</h1>
+<button id="themeToggle">🌙</button>
+</header>
+
+<section class="grid">
+<button onclick="loadHadits('bukhari')" class="card">Shahih Bukhari</button>
+<button onclick="loadHadits('muslim')" class="card">Shahih Muslim</button>
+</section>
+
+<div id="hadits-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
